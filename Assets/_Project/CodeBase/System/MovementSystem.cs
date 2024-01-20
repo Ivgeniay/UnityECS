@@ -6,7 +6,7 @@ using UnityEngine;
 namespace ECS.CodeBase.System
 {
     [Serializable]
-    public sealed class MovementSystem : IFixedUpdateSystem
+    public sealed class MovementSystem : IFixedUpdateSystem, ISystem
     {
         private ComponentPool<MoveStateComponent> statePool;
         private ComponentPool<MoveSpeedComponent> speedPool;

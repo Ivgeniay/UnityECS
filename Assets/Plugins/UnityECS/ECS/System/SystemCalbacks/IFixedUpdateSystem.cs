@@ -2,7 +2,7 @@
 
 namespace ECS.System.SystemCalbacks
 {
-    public interface IFixedUpdateSystem
+    public interface IFixedUpdateSystem : ISystem
     {
         public void FixedUpdate(int entity);
     }
